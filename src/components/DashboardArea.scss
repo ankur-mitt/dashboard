@@ -6,11 +6,22 @@ $gray: #dee2e6;
 $white: #FFF;
 
 // custom variables for TopBar
-$avatar-size: 3rem;
-$notifications-menu-width: 30rem;
-$notification-icon-size: 1.5rem;
-$user-info-width: 15rem;
-$menu-border-radius: 1rem;
-$unread-dot-size: 0.5rem;
+$left-sidebar-item-padding-left: 1.5rem;
 
 // custom style for TopBar
+.left-side-bar {
+  color: $light;
+  height: calc(100vh - 5rem);
+}
+
+.left-bar-item {
+  padding-left: $left-sidebar-item-padding-left;
+
+  &.active {
+    border-left: 0.5rem solid $white;
+  }
+
+  &:hover {
+    background-color: lighten($primary, 2.5%);
+  }
+}

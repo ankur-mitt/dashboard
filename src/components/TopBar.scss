@@ -14,6 +14,10 @@ $menu-border-radius: 1rem;
 $unread-dot-size: 0.5rem;
 
 // custom style for TopBar
+.navbar {
+  box-shadow: 0 0.25rem $gray;
+}
+
 .collapse, .collapsing, .collapse.show {
   position: absolute;
   z-index: 9999;

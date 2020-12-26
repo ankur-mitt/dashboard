@@ -1,0 +1,92 @@
+// variables for theme
+$light: #FFFFFF;
+$primary: #09206F;
+$secondary: #F9A61A;
+$gray: #dee2e6;
+$white: #FFF;
+
+// custom variables for TopBar
+$avatar-size: 3rem;
+$notifications-menu-width: 30rem;
+$notification-icon-size: 1.5rem;
+$user-info-width: 15rem;
+$menu-border-radius: 1rem;
+$unread-dot-size: 0.5rem;
+
+// custom style for TopBar
+.collapse, .collapsing, .collapse.show {
+  position: absolute;
+  z-index: 9999;
+  right: 2.5vw;
+
+  .card {
+    background-color: $light;
+    border-radius: $menu-border-radius;
+    box-shadow: 1px 2px $gray;
+  }
+
+  .card-header {
+    margin: 0;
+    color: $light;
+    background-color: $primary;
+    align-items: center;
+    border-top-left-radius: $menu-border-radius;
+    border-top-right-radius: $menu-border-radius;
+
+    i {
+      vertical-align: top;
+      float: left;
+      color: $white;
+    }
+  }
+
+  .list-group {
+    border-bottom-left-radius: $menu-border-radius;
+    border-bottom-right-radius: $menu-border-radius;
+
+    .col-11 {
+      padding-left: 0;
+    }
+  }
+
+  #secondary-unread-dot {
+    height: $unread-dot-size;
+    width: $unread-dot-size;
+    background-color: $secondary;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.notifications {
+  .collapse, .collapsing, .collapse.show {
+    width: $notifications-menu-width;
+  }
+
+  i {
+    vertical-align: middle;
+    font-size: $notification-icon-size;
+    color: $primary;
+  }
+}
+
+#vertical-separator-line {
+  vertical-align: middle;
+  border: 1px solid $primary;
+  background-color: $primary;
+  height: 3.5rem;
+}
+
+.user-info {
+  .collapse, .collapsing, .collapse.show {
+    width: $user-info-width;
+  }
+}
+
+.avatar {
+  vertical-align: middle;
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+}

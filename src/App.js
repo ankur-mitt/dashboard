@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.scss";
 
-function App() {
+import TopBar from "./components/TopBar";
+
+export default function App() {
     return (
-        <React.Fragment>
-            <button type="button" className="btn btn-primary">Primary</button>
-        </React.Fragment>
+        <React.Fragment><TopBar/></React.Fragment>
     );
 }
-
-export default App;

@@ -4,8 +4,15 @@ body {
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #F0F3F8 !important;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/*
+    UI Design File Links
+    WEB-MenteeUI: https://xd.adobe.com/view/09a9a4fc-8a7f-4c47-832a-85b3d4ccfec1-5cfa/
+    WEB-MentorUI: https://xd.adobe.com/view/6bc7f427-a256-4031-bb9e-b784b236804c-3e94/
+*/

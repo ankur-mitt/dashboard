@@ -1,6 +1,6 @@
 import React from "react";
 import "./TopBar.scss";
-import logo from "../media/LOGO bright.png";
+import logo from "../media/LOGO bright@2x.png";
 import avatarImage from "../media/icons8-circled-user-male-skin-type-3-96.png";
 
 function NotificationListGroupItem() {
@@ -47,7 +47,7 @@ export default function TopBar() {
             <nav className="navbar navbar-light bg-light px-3 px-xl-5">
                 <div className="container-xxl d-flex align-items-center">
                     <a href="/" className="navbar-brand position-relative me-auto" role="button">
-                        <img src={logo} alt="jee carnot logo"/>
+                        <img src={logo} alt="jee carnot logo" height="50"/>
                     </a>
                     <div id="user-section">
                         <span className="notifications">
